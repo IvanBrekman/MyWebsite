@@ -1,0 +1,21 @@
+/* ========== Contacts ========== */
+.contacts_table {
+	margin: auto;
+	border-spacing: calc(var(--border-spacing) / 2) calc(var(--border-spacing) / 2);
+}
+
+.contacts_table img {
+	width: calc(var(--link-img-width));
+	transition: width .3s linear;
+}
+
+.contacts_table img:hover {
+	width: calc(1.1 * var(--link-img-width));
+}
+
+@media (max-width:  600px) {
+	.contacts_table {
+		border-spacing: 30px;
+	}
+}
+/* ============================== */

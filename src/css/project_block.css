@@ -1,0 +1,35 @@
+/* ========== Programs ========== */
+.project_block {
+	width: 90%;
+	max-width: 1300px;
+	margin: 100px auto;
+	text-align: center;
+
+	border-radius: 50px;
+
+}
+
+.project_block.py {
+	background-color: rgba(255, 160, 122, .5);
+}
+
+.project_block.c {
+	background-color: rgba(173, 216, 230, .8);
+}
+
+.project_desc {
+	padding: var(--padding-size);
+}
+
+.project_link__img {
+	width: var(--link-img-width);
+	border-radius: 50%;
+	background-color: white;
+
+	transition: background-color .5s linear;
+}
+
+.project_link__img:hover {
+	background-color: lightgreen;
+}
+/* ============================== */
